@@ -1,0 +1,18 @@
+.story-button {
+	outline: none;
+	border: none;
+	padding: 10px;
+	border-radius: 2px;
+	background-color: aqua;
+	color: white;
+}
+.success {
+	background-color: green;
+}
+
+.primary {
+	background-color: blueviolet;
+}
+.danger {
+	background-color: red;
+}

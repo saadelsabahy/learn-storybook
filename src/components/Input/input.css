@@ -1,0 +1,18 @@
+.story-input {
+	width: 50%;
+	outline: none;
+	height: 3em;
+	padding-left: 1em;
+	border-radius: 10px;
+	font-size: 1.1em;
+}
+.large {
+	width: 90%;
+}
+
+.medium {
+	width: 70%;
+}
+.small {
+	width: 30%;
+}
