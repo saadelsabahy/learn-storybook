@@ -1,3 +1,9 @@
+// .storybook/preview.js
+
+import { ChakraProvider, CSSReset, theme } from '@chakra-ui/react';
+import React from 'react';
+import Center from '../src/components/center/Center.tsx';
+
 export const parameters = {
 	actions: { argTypesRegex: '^on[A-Z].*' },
 	options: {
@@ -12,4 +18,14 @@ export const parameters = {
 			date: /Date$/,
 		},
 	},
+	chakra: {
+		theme,
+	},
 };
+export const decorators = [
+	(Story) => (
+		<Center>
+			<Story />
+		</Center>
+	),
+];
